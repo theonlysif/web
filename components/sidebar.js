@@ -41,13 +41,13 @@ export default function Sidebar() {
       active: pathname.includes("/projects"),
     },
     {
-      title: "Experiments",
+      title: "experiments",
       url: "/experiments",
       icon: ExperimentsIcon,
       active: pathname.includes("/experiments"),
     },
     {
-      title: "Travel Map",
+      title: "travel map",
       url: "/map",
       icon: TravelIcon,
       active: pathname === "/map",
@@ -55,14 +55,14 @@ export default function Sidebar() {
   ];
   const SOCIAL = [
     {
-      title: "Twitter",
-      url: `https://twitter.com/${process.env.twitter}`,
+      title: "twitter",
+      url: `https://twitter.com/theonlysif`,
       icon: TwitterIcon,
       external: true,
     },
     {
-      title: "Instagram",
-      url: `https://instagram.com/${process.env.instagram}`,
+      title: "instagram",
+      url: `https://instagram.com/theonlysif`,
       icon: InstagramIcon,
       external: true,
     },
@@ -98,7 +98,7 @@ export default function Sidebar() {
   const renderSocials = () => {
     return (
       <>
-        <h4 className="px-10 mt-4 mb-2 text-gray-400">Social</h4>
+        <h4 className="px-10 mt-4 mb-2 text-gray-400">on the webl</h4>
         {SOCIAL.map((link) => (
           <div className="px-4" key={link.title}>
             <Link href={link.url}>
