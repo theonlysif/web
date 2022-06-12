@@ -40,7 +40,6 @@ export default function Sidebar() {
       icon: SideProjectsIcon,
       active: pathname.includes("/projects"),
     },
-    /* Hiding Experiments and Travel Map
     {
       title: "Experiments",
       url: "/experiments",
@@ -54,7 +53,6 @@ export default function Sidebar() {
       active: pathname === "/map",
     },
   ];
-*/
   const SOCIAL = [
     {
       title: "Twitter",
