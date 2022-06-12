@@ -23,23 +23,24 @@ export default function Sidebar() {
 
   const LINKS = [
     {
-      title: "Home",
+      title: "home",
       url: "/",
       icon: HomeIcon,
       active: pathname === "/",
     },
     {
-      title: "Blog",
+      title: "blog",
       url: "/blog",
       icon: BlogIcon,
       active: pathname.includes("/blog"),
     },
     {
-      title: "Side Projects",
+      title: "work",
       url: "/projects",
       icon: SideProjectsIcon,
       active: pathname.includes("/projects"),
     },
+    /* Hiding Experiments and Travel Map
     {
       title: "Experiments",
       url: "/experiments",
@@ -53,7 +54,7 @@ export default function Sidebar() {
       active: pathname === "/map",
     },
   ];
-
+*/
   const SOCIAL = [
     {
       title: "Twitter",
@@ -68,8 +69,8 @@ export default function Sidebar() {
       external: true,
     },
     {
-      title: "Email",
-      url: `mailto:iamrishi.ms@gmail.com`,
+      title: "email me",
+      url: `mailto:hello@theonlysif.com`,
       icon: EmailIcon,
       external: false,
     },
